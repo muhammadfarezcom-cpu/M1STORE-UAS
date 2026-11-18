@@ -1,0 +1,1 @@
+Upload isi ZIP ini ke GitHub Public, bukan ZIP-nya saja. Jangan unggah file .env atau kredensial rahasia. .env tetap di laptop untuk localhost. GitHub Pages tidak menjalankan backend Node.js atau MySQL. Agar orang lain dapat login dan membeli online, perlu hosting backend, database, dan konfigurasi Midtrans Sandbox yang aman.

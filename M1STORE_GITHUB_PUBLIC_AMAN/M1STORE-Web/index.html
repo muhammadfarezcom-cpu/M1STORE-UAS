@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090f1d" />
+  <meta name="description" content="M1STORE — website top up game dalam pengujian Midtrans Sandbox." />
+  <title>M1STORE — Official Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header v12-header">
+  <a class="brand" href="#/" aria-label="M1STORE beranda"><span class="brand-icon">M</span><span><b>M1<span>STORE</span></b><small>OFFICIAL STORE</small></span></a>
+  <nav class="main-nav" aria-label="Navigasi utama"><a href="#/" data-nav="home"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7"/><path d="M5 9v12h14V9"/><path d="M9 21v-7h6v7"/></svg><span>Beranda</span></a><a href="#/orders" data-nav="orders"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18l-3-2-4 2-4-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg><span>Pesanan</span></a><button type="button" data-login-btn><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 17l5-5-5-5M15 12H3"/><path d="M13 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/></svg><span data-login-label>Login</span></button></nav>
+  <div class="header-right"><label class="search-wrap"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="globalSearch" placeholder="Cari..." autocomplete="off" aria-label="Cari game" /></label><button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
+</header>
+<main id="app"></main>
+<footer class="footer"><span class="brand-mini">M1<span>STORE</span></span><span>Top up game mudah, cepat, dan aman.</span><span>© 2026 M1STORE </span></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div id="modalRoot"></div>
+<script src="script.js" defer></script>
+<script src="v14-checkout.js" defer></script>
+</body>
+</html>
